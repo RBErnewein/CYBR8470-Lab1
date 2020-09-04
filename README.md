@@ -4,7 +4,7 @@ Student:   Robert Ernewein
 
 ## Lab 1: RESTFul APIs
 
-Twitter Application: CYBR8470-F20-Lab1
+[Twitter Application: CYBR8470-F20-Lab1](./images/Lab1-Step3-1.png)
 
 Keys: Twitter API Keys.txt
 
@@ -107,24 +107,3 @@ Notice that the API Resource reference [here](https://dev.twitter.com/rest/refer
 
 ![Twitter API](./img/post-request-5.png)
 > It worked!
-
-### Checkpoint
-Lets review what we've learned.
-
-- You used `OAuth 2.0` to access an `API`. 
-- You explored some various `API endpoints` on twitter.
-- You fetched (`GET`) from twitter and posted (`post`) new data using the API.
-
-### Additional Resources
-For more information, investigate the following.
-
-* [https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) - Overview of basic HTTP operations
-* [https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages) - Overview of request and response messages in HTTP
-* [https://dev.twitter.com/rest/reference/](https://dev.twitter.com/rest/reference/) - Twitter API reference
-
-
-### License
-Based upon [GenCyber Littlebits RESTFul API Lesson](https://github.com/MLHale/nebraska-gencyber/tree/master/teachers/restful-api) Copyright (C) [Dr. Matthew Hale](http://faculty.ist.unomaha.edu/mhale/) 2017.  
-
-Adapted for Twitter: Copyright (C) [Dr. Matthew Hale](http://faculty.ist.unomaha.edu/mhale/) 2017-2020.  
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This lesson</span> is licensed by the author under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
