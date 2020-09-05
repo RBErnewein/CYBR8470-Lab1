@@ -47,29 +47,10 @@ https://api.twitter.com/search/tweets.json
 
 ### Step 6: Post Request
 
+Can't POST using App Key. No access to the user.
 ![](./images/Step6-1.png)
 
-High School Football
-![](./images/Step6-2-Error.png)
+I was not able to POST under a user context after resetting the Authorizxation to Oauth 1. Based on the writeup, I assumed that the Token Secret was the same as the Consumer Secret. I tried multiple combinations of the user ID & Access Token for the Token Secret without success.
+![](./images/Step6-2.png)
 
-
-```
-Testing RESTful API lesson for #security #webdev class #unomaha
-```
-
-* Hit the ```send``` button to issue the _POST request_ to the URL.
-* What happened?
-
-Notice that the API Resource reference [here](https://dev.twitter.com/rest/reference/post/statuses/update) marks the required authentication with `user context only`. This means that you need to be logged in using that user's context to successfully `POST` as them.
-
-* To do this, we need to switch to `Oauth 1` and provide a user context. Remember that `access token` you generated in Step 3? Now is where it will be useful. Basically, what you did was grant the app you created access to your twitter account. Now we are going to use the token it was given to authorize it to post on your behalf. Usually you would implement a 3 way oauth chain to get this token:
-
-* For now lets use what we have. Visit [https://apps.twitter.com/](https://apps.twitter.com/)
-* Click the app you created.
-* Now in `POSTMAN` select `Authorization` and then set the type to `Oauth 1`
-* Enter your information:
-
-* Click send. You should see a success message now! Check your twitter account:
-> !!! Note !!! Depending on your version of postman, you may need to remove the url encoding from your status parameter. Newer versions of POSTMAN URL encode automatically for you. In that case you can just use `Testing RESTful API lesson for #security #webdev class #unomaha` as your status parameter.
-
-> It worked!
+Note: The inteface in the current version of Postman differs greatly from the writeup. Fields and settings don't matchup well. 
