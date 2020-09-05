@@ -12,7 +12,7 @@ Software: Postman (v7.31.1)
 
 ## Screenshots & Findings
 
-### Step 4: GET requests
+### Step 4: GET Requests
 
 4.1: Creating GET request for Twitter Trends
 ![](./images/Step4-1.png)
@@ -33,12 +33,15 @@ Note: I had some issues with Postman requiring manual input/configuration of the
 4.5: Local Trending Data 
 ![](./images/Step4-5.png)
 
-### Step 5: GET Searches
+### Step 5: Addtional GET Requests
 
-Omaha City Council
+Searching recent Tweets via
+https://api.twitter.com/search/tweets.json
+
+5.1: Omaha City Council
 ![](./images/Step5-1.png)
 
-High School Football
+5.2: High School Football
 ![](./images/Step5-2.png)
 
 
