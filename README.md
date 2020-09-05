@@ -3,8 +3,8 @@ Professor: Dr. Hale
 Student:   Robert Ernewein
 
 ## Lab 1: RESTFul APIs
-
-![Twitter Application: CYBR8470-F20-Lab1](./images/Lab1-Step3-1.png)
+Twitter Application: CYBR8470-F20-Lab1
+![](./images/Lab1-Step3-1.png)
 
 Keys: Twitter API Keys.txt
 
