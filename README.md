@@ -25,22 +25,12 @@ Software: Postman (v7.31.1)
 ![](./images/Step4-5.png)
 
 
-![Twitter API](./img/app-auth-diagram.png)
-
-* Now that we have a token, you should see that the token has been added as a parameter called `access_token`. Lets add the `id` for Omaha again.
-
-At this point your request should look something like:
-
-![Twitter API](./img/postman2.png)
-
-* Hit the ```send``` button to issue the _GET request_ to the URL. You should see recent results. In my case I wrote this during the 2017 eclipse and saw the following as the eclipse went through Omaha.
-
-![Twitter API](./img/postman3.png)
-
 ### Step 5: Other GET Requests
-Try some other requests using the `search API` on twitter. See: [https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets](https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets) for more information about the different options.
 
-Your queries should target [https://api.twitter.com/1.1/search/tweets.json](https://api.twitter.com/1.1/search/tweets.json)
+![](./images/Step5-1.png)
+
+![](./images/Step5-2.png)
+
 
 ### Step 6: First POST request to create a new tweet
 Now that we have the basics of `GET requests` to access tweet data, lets try making a new tweet! We will work with the `API endpoint` here: [https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update](https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update)
