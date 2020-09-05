@@ -4,45 +4,26 @@ Student:   Robert Ernewein
 
 ## Lab 1: RESTFul APIs
 Twitter Application: CYBR8470-F20-Lab1
-![](./images/Lab1-Step3-1.png)
+![](./images/Step3-1.png)
 
-Keys: Twitter API Keys.txt
-
+Keys:     Twitter API Keys.txt
 Browser:  Google Chrome (v85.0.4183.83)
 Software: Postman (v7.31.1)
 
 ## Screenshots & Findings
 
-### Step 4: Making your first REST request
+### Step 4: GET REST request
 
+![](/.images/Step4-1.png)
 
-Now that we have our API Key, lets use it to make a request.
+![](/.images/Step4-2.png)
 
-POSTMAN is a REST client, that allows end users to make requests to test their APIs. Lets use it to test the `twitter API`. Launch POSTMAN by typing ```chrome://apps``` into the Chrome address bar, hit enter, and then click the POSTMAN icon. Alternatively, you can download the desktop client here: [https://www.postman.com/downloads/](https://www.postman.com/downloads/).
+![](/.images/Step4-3.png)
 
-![Loading Postman](./img/postman1.png)
+![](/.images/Step4-4.png)
 
-In POSTMAN, lets build a new GET request targeted at the trends `API endpoint` we explored before in my example:
-[https://api.twitter.com/1.1/trends/place.json](https://api.twitter.com/1.1/trends/place.json)
+![](/.images/Step4-5.png)
 
-* Enter `https://api.twitter.com/1.1/trends/place.json` into the URL bar to the right of the `GET` keyword.
-* Find and click the `Authorization` tab, set the type to OAuth 2.0, and then click `Get New Access Token`
-
-![Twitter API](./img/twitter-app2.png)
-
-* In the popup, select `Grant Type` to be `Client Credentials`. 
-* Set the `access token URL` to `https://api.twitter.com/oauth2/token`. 
-* Set the `Client ID` to your `public key` listed on your Twitter App page.
-* Set the `Client Secret` to your `private key` also on your Twitter App page.
-* Set `Client authentication` to `Send as Basic Auth Header`
-
-> Note, depending on the version of POSTMAN, your window should look something like mine:
-
-![Twitter API](./img/twitter-app3.png)
-
-* Hit `Request token` when done. This will ask twitter for an `API Key` that `POSTMAN` can then use to authenticate subsequent requests to the API.
-
-> For reference this is what happens in the background:
 
 ![Twitter API](./img/app-auth-diagram.png)
 
