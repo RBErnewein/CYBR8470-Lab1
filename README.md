@@ -1,5 +1,5 @@
 # CYBR8470: Secure Web Application Development
-Professor: Dr. Hale
+Professor: Dr. Hale  
 Student:   Robert Ernewein
 
 ## Lab 1: RESTFul APIs
