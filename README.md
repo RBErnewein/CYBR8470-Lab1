@@ -25,10 +25,12 @@ Software: Postman (v7.31.1)
 ![](./images/Step4-5.png)
 
 
-### Step 5: Other GET Requests
+### Step 5: GET Searches
 
+Omaha City Council
 ![](./images/Step5-1.png)
 
+High School Football
 ![](./images/Step5-2.png)
 
 
