@@ -12,17 +12,17 @@ Software: Postman (v7.31.1)
 
 ## Screenshots & Findings
 
-### Step 4: GET REST request
+### Step 4: GET requests
 
-![](/.images/Step4-1.png)
+![](./images/Step4-1.png)
 
-![](/.images/Step4-2.png)
+![](./images/Step4-2.png)
 
-![](/.images/Step4-3.png)
+![](./images/Step4-3.png)
 
-![](/.images/Step4-4.png)
+![](./images/Step4-4.png)
 
-![](/.images/Step4-5.png)
+![](./images/Step4-5.png)
 
 
 ![Twitter API](./img/app-auth-diagram.png)
