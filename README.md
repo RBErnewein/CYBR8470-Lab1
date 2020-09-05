@@ -6,8 +6,8 @@ Student:   Robert Ernewein
 Twitter Application: CYBR8470-F20-Lab1
 ![](./images/Step3-1.png)
 
-Keys:     Twitter API Keys.txt
-Browser:  Google Chrome (v85.0.4183.83)
+Keys:     Twitter API Keys.txt  
+Browser:  Google Chrome (v85.0.4183.83)  
 Software: Postman (v7.31.1)
 
 ## Screenshots & Findings
