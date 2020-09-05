@@ -50,7 +50,7 @@ https://api.twitter.com/search/tweets.json
 Can't POST using App Key. No access to the user.
 ![](./images/Step6-1.png)
 
-I was not able to POST under a user context after resetting the Authorization to Oauth 1. Based on the writeup, I assumed that the Token Secret was the same as the Consumer Secret. I tried multiple combinations of the user ID & Access Token for the Token Secret without success.
+I was not able to POST under a user context after resetting the Authorization to Oauth 1. Based on the writeup, I assumed that the Token Secret was the same as the Consumer Secret. I also tried multiple combinations of the user ID & Access Token for the Token Secret without success.
 ![](./images/Step6-2.png)
 
 Note: The inteface in the current version of Postman differs greatly from the writeup. Fields and settings don't matchup well.
