@@ -14,23 +14,23 @@ Software: Postman (v7.31.1)
 
 ### Step 4: GET requests
 
-Creating GET request for Twitter Trends
+4.1: Creating GET request for Twitter Trends
 ![](./images/Step4-1.png)
 
-Getting new Access Token
+4.2: Getting new Access Token
 ![](./images/Step4-2.png)
 
-Set Authentication Type: OAuth 2.0
+4.3: Set Authentication Type: OAuth 2.0
 ![](./images/Step4-3.png)
 
-Set Location ID: 2465512 (Omaha, NE)
+4.4: Set Location ID: 2465512 (Omaha, NE)
 ![](./images/Step4-4.png)
 
 Note: I had some issues with Postman requiring manual input/configuration of the GET request.
 ![](./images/Step4-4a.png)
 ![](./images/Step4-4b.png)
 
-Local Trending Data 
+4.5: Local Trending Data 
 ![](./images/Step4-5.png)
 
 ### Step 5: GET Searches
